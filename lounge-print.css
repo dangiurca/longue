@@ -1,0 +1,28 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12pt;
+  color: black;
+  background-color: white;
+  line-height: 1.6em;
+  margin: 10 40 10 40;
+  width: 700px;
+}
+h1 {
+  font-size: 150%;
+}
+h2 {
+  font-size: 130%;
+}
+img {
+  display: none;
+}
+#guarantee {
+  font-family: italic;
+  padding: 1.6em 1.6em;
+  border: thin solid rgb(184, 178, 178);
+  margin: 30px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
