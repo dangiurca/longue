@@ -1,26 +1,169 @@
-body {
-  font-family: sans-serif;
-}
-p {
-  color: maroon;
-}
-h1,
-h2 {
-  color: gray;
-}
-h1 {
-  border-bottom: 1px solid black;
-}
-em {
-  font-family: serif;
-}
+/*width 481px nu o simte viewportul(fereastra browserului) */
+@media screen and (min-width: 600px) {
+  body {
+    font-size: small;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
+  }
 
-p.greentea {
-  color: green;
+  p {
+    color: maroon;
+  }
+  h1,
+  h2 {
+    color: aquamarine;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 130%;
+  }
+  #guarantee {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 1.9em;
+    color: #444444;
+    background-color: #a7cece;
+    padding: 25px;
+    margin: 30px;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left: 80px;
+    margin-right: 250px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+  }
+  a:link {
+    color: #007e7e;
+  }
+
+  /* visited link */
+  a:visited {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: olive;
+    background-color: rgb(227, 247, 207);
+    font-size: 150%;
+  }
+
+  /* selected link */
+  a:active {
+    color: blue;
+  }
 }
-p.raspbery {
-  color: purple;
+@media screen and (max-width: 600px) {
+  body {
+    font-size: small;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    line-height: 1.6em;
+  }
+
+  p {
+    color: maroon;
+  }
+  h1,
+  h2 {
+    color: aquamarine;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  h2 {
+    font-size: 130%;
+  }
+  #guarantee {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 1.9em;
+    color: #444444;
+    background-color: #a7cece;
+    padding: 25px;
+    margin: 30px;
+
+    border-width: 1px;
+    border-style: dashed;
+    border-color: white;
+    /*
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left; 
+    padding-left: 80px;
+    margin-right: 250px;
+    */
+  }
+  /*
+  a:link {
+    color: #007e7e;
+  }
+*/
+  /* visited link */
+  /*
+  a:visited {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+  }
+*/
+  /* mouse over link */
+  /*
+  a:hover {
+    color: olive;
+    background-color: rgb(227, 247, 207);
+    font-size: 150%;
+  }
+*/
+  /* selected link */
+  /*
+  a:active {
+    color: blue;
+  }
+  */
 }
-p.bluberry {
-  color: blue;
+@media print {
+  body {
+    font-size: 12pt;
+    font-family: Times, "Times New Roman", serif;
+    line-height: 1.4em;
+    margin: 10px 40px 10px 40px;
+    width: 700px;
+  }
+  img {
+    display: none;
+  }
+  h1,
+  h2 {
+    color: black;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  h2: {
+    font-size: 130%;
+  }
+  #guarantee {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    line-height: 1.6em;
+    color: black;
+    /*color: #444444;*/
+    /*background-color: #a7cece;*/
+    padding: 25px;
+    margin: 30px;
+    border: thin black solid;
+    /*border-width: 1px;
+    border-style: dashed;
+    border-color: white;*/
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
