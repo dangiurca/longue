@@ -28,3 +28,57 @@ h2 {
   background-repeat: no-repeat;
   background-position: top left;
 }
+#elixirs {
+  width: 200px;
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 0px;
+  /*--margin-right: 540px;*/
+  margin-bottom: 0px;
+  margin-left: 20px;
+  background-image: url(images/cocktail.gif);
+  background-position: top;
+  background-repeat: repeat-x;
+  text-align: center;
+  line-height: 1;
+  float: right;
+}
+#elixirs h2 {
+  color: black;
+}
+#elixirs h3 {
+  color: #d12c47;
+}
+a:link {
+  color: #007e7e;
+}
+a:visited {
+  color: #333333;
+}
+#elixirs a:link {
+  color: #007e7e;
+}
+#elixirs a:visited {
+  color: #333333;
+}
+#elixirs a:hover {
+  background-color: #f88396;
+  color: #0d5353;
+}
+#footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+span.cd {
+  font-style: italic;
+}
+span.art {
+  font-weight: bold;
+}
